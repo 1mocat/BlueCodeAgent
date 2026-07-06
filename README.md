@@ -94,7 +94,7 @@ Embeddings are already included in the released data. To embed **new** data:
 
 ## Red-teaming
 
-For the automated red-teaming method (adaptive jailbreak/attack optimization), please refer to **RedCodeAgent** (Guo et al., 2025, *RedCodeAgent: Automatic red-teaming agent against diverse code agents*). This repository releases the **datasets produced after red teaming** and the blue-teaming defense.
+For the automated red-teaming method (adaptive jailbreak/attack optimization), please refer to **[RedCodeAgent](https://github.com/1mocat/RedCodeAgent)** (Guo et al., 2025, *RedCodeAgent: Automatic red-teaming agent against diverse code agents*). This repository releases the **datasets produced after red teaming** and the blue-teaming defense.
 
 ## Responsible use
 
@@ -110,5 +110,14 @@ author={Chengquan Guo and Yuzhou Nie and Chulin Xie and Zinan Lin and Wenbo Guo 
 booktitle={Forty-third International Conference on Machine Learning},
 year={2026},
 url={https://openreview.net/forum?id=TR2DYfZXTd}
+}
+
+@inproceedings{
+guo2026redcodeagent,
+title={RedCodeAgent: Automatic Red-teaming Agent against Diverse Code Agents},
+author={Chengquan Guo and Chulin Xie and Yu Yang and Zhaorun Chen and Zinan Lin and Xander Davies and Yarin Gal and Dawn Song and Bo Li},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=IyIaAOihmZ}
 }
 ```
