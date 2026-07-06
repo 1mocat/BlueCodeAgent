@@ -1,0 +1,14 @@
+# --- Core (always required) ---
+openai>=1.0            # GPT-4o base/constitution model + text-embedding-3-small
+anthropic>=0.30        # Claude dynamic analyzer (vulnerable-code task)
+together>=1.2          # open-source base models (Llama-3-8B, Qwen2.5) via Together
+numpy
+scikit-learn           # cosine-similarity top-k retrieval + F1/precision/recall
+docker                 # Python SDK for the isolated dynamic-testing sandbox
+
+# --- Optional: only needed for LOCAL constitution/base models in models/client.py ---
+# torch                # local Qwen3 / Meta-Llama constitution models (GPU)
+# transformers         # local Qwen3 / Meta-Llama constitution models
+# claude-code-sdk      # the `claude_code` agent client backend
+
+# The exact conda environment used for the paper is in environment/environment.yml.

@@ -1,0 +1,23 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.env
+
+# --- Run outputs ---
+results/
+logs/
+*.log
+
+# --- Docker sandbox scratch (keep the dir, ignore its contents) ---
+environment/docker_files/*
+!environment/docker_files/.gitkeep
+
+# --- Gated malicious datasets (see dataset/malicious_*/README.md) ---
+dataset/malicious_rmc/*.json
+dataset/malicious_redcode/*.json
+
+# --- Internal pre-release working doc (contains audit info; do NOT publish) ---
+RELEASE_PLAN.md
+
+# --- Submission PDF (delete this line if you want to publish the paper) ---
+18406_BlueCodeAgent_A_Blue_Tea.pdf
